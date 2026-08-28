@@ -67,3 +67,30 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ==========================================
+# IDE & Code Editor Clutter (Crucial)
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.vs/
+*.user
+*.suo
+*.sln
+.idea/
+*.cmake
+
+# ==========================================
+# Operating System Garbage
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Graphics & Asset Temporary Files
+# ==========================================
+*.aseprite
+*.psd
+
