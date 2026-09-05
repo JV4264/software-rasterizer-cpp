@@ -68,9 +68,7 @@ vcpkg_installed/
 Testing/
 .cache/
 
-# ==========================================
 # IDE & Code Editor Clutter (Crucial)
-# ==========================================
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -82,15 +80,19 @@ Testing/
 .idea/
 *.cmake
 
-# ==========================================
 # Operating System Garbage
-# ==========================================
 .DS_Store
 Thumbs.db
 
-# ==========================================
 # Graphics & Asset Temporary Files
-# ==========================================
 *.aseprite
 *.psd
 
+# Profile-Guided Optimization (PGO) & Benchmarking
+*.gcda
+*.gcno
+*.profraw
+
+# If you ever use a package manager like Conan
+conan/
+conan.lock
