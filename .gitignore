@@ -78,7 +78,6 @@ Testing/
 *.suo
 *.sln
 .idea/
-*.cmake
 
 # Operating System Garbage
 .DS_Store
