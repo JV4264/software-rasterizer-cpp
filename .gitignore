@@ -95,3 +95,6 @@ Thumbs.db
 # If you ever use a package manager like Conan
 conan/
 conan.lock
+
+# Personal task
+game_engine_project.md
